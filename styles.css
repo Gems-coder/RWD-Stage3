@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clone-project{
+    background: rgba(245, 138, 7, 0.1);
+    color:#F58A07;
+    
+}
+.header-background {
+    background: url('./images/Virtual-Team-Building\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+background-blend-mode: overlay;
+}
+#btn{
+    background-color: #F58A07;
+}
+#blue-background{
+    background-color:#EDF7FF;
+}
+.Orange{
+    color: #F58A07;
+}
+#image-bg{
+  background-color: #F58A07;   
+}
+#About-image{
+    width: 100%;
+}
+#footer-bg{
+    background-color: #063255;
+    background-image: url(./images/Shape\ Left.png), url(./images/Shape\ Right.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, top right;
+    background-size: 30px, 40px;
+    height: 40vh;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width:700px) {
+    #footer-bg{
+        background-image: none;
+        height: auto;
+        padding-top: 20px;
+    }
+    
+}
