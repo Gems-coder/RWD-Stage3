@@ -41,6 +41,9 @@ background-blend-mode: overlay;
     height: 40vh;
     padding-top: 20px;
 }
+p{
+    text-align: justify;
+}
 
 @media only screen and (max-width:1200px) {
     #footer-bg{
